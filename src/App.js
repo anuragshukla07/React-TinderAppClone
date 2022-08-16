@@ -14,6 +14,7 @@ function App() {
     }
 
     {/* {Header} */}
+    
     <Header />
 
     {/* {Cards} */}
@@ -21,7 +22,7 @@ function App() {
 
 
     {/* {Footer} */}
-    <Footer/>
+    <Footer />
     </>
   ); 
 }
