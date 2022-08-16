@@ -12,12 +12,14 @@ import { IconButton } from '@mui/material';
 function Header() {
   return (
     <div className='tinder-header'>
-       <IconButton className='header-icons' fontSize='large'>
-        <PersonIcon />
+       <IconButton >
+        <PersonIcon className='header-icons' fontSize='large' />
        </IconButton> 
-        <WhatshotIcon className='header-icons' fontSize='large'/>
-        <IconButton className='header-icons' fontSize='large'>
-        <ChatIcon />
+       <IconButton>
+       <WhatshotIcon className='header-logo' fontSize='large'/>
+       </IconButton>
+        <IconButton >
+        <ChatIcon className='header-icons' fontSize='large'/>
         </IconButton>
     </div>
   )
