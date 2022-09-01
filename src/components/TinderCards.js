@@ -1,5 +1,6 @@
 import React from 'react'
 import TinderCard from 'react-tinder-card'
+import './Cards.css'
 function TinderCards() {
 
   // Hooks are functions that can be used in React components.  
@@ -120,7 +121,7 @@ function TinderCards() {
 
 
   return (
-    <div>
+    <div className='card-container'>
       {
         footballers.map( footballer => (
           <TinderCard
@@ -131,7 +132,7 @@ function TinderCards() {
             <div
              style={{ backgroundImage: `url(${footballer.url})` }}
              className='card'>
-              <h3> {footballer.name} </h3>
+              <h2> {footballer.name} </h2>
             </div>
 
           </TinderCard>
